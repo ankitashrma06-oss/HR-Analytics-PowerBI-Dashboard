@@ -1,35 +1,31 @@
 # 📊 HR Analytics Dashboard (Power BI)
 
-An end-to-end HR Analytics dashboard built using Power BI to analyze employee demographics, performance, and attrition.
-This project demonstrates data modeling, DAX, and business-driven insights to support HR decision-making.
+An end-to-end HR Analytics project built using Power BI to analyze employee demographics, performance, and attrition.
+This dashboard provides actionable insights to support data-driven HR decision-making.
 
 ---
 
 ## 📌 Project Overview
 
-Organizations often struggle to understand employee behavior, retention patterns, and workforce composition.
-This dashboard provides a comprehensive analysis of HR data to uncover key trends and actionable insights.
+Understanding employee behavior, performance, and retention is critical for organizational success.
 
-The report is designed to answer critical business questions such as:
-
-* What is the overall workforce composition?
-* How are employees performing?
-* What factors are contributing to employee attrition?
+This project analyzes HR data to uncover patterns in workforce composition, employee satisfaction, and attrition.
+The dashboard is designed to help stakeholders identify key issues and take proactive actions.
 
 ---
 
 ## 🎯 Objectives
 
 * Analyze workforce demographics and diversity
-* Monitor employee performance and satisfaction
+* Track employee performance and satisfaction
 * Identify key drivers of employee attrition
-* Provide actionable recommendations for HR strategy
+* Provide actionable insights for HR decision-making
 
 ---
 
 ## 🧩 Data Model
 
-The data model follows a **star schema**, ensuring efficient querying and scalability.
+The data model is designed using a **star schema**, which improves performance and simplifies analysis.
 
 ### 🔹 Fact Table
 
@@ -38,29 +34,30 @@ The data model follows a **star schema**, ensuring efficient querying and scalab
 
 ### 🔹 Dimension Tables
 
-* **Employee** → demographic and job-related attributes
+* **Employee** → demographic and job-related details
 * **Rating Level** → performance categories
-* **Satisfaction Level** → satisfaction labels
-* **Education Level** → education classification
-* **Date** → time-based analysis
+* **Satisfaction Level** → satisfaction descriptions
+* **Education Level** → employee education classification
+* **Date** → supports time-based analysis
 
-This structure enables fast filtering, accurate relationships, and efficient analysis.
+This structure enables efficient filtering, accurate relationships, and scalable reporting.
 
 ---
 
 ## 📊 Dashboard Structure
 
-### 🔹 1. Overview
+### 🔹 Overview
 
-Provides a high-level summary of workforce metrics:
+Provides a high-level summary of key HR metrics:
 
 * Total Employees
-* Active vs Inactive Employees
+* Active Employees
+* Inactive Employees
 * Attrition Rate
 
 ---
 
-### 🔹 2. Demographics
+### 🔹 Demographics
 
 Analyzes workforce composition:
 
@@ -71,20 +68,20 @@ Analyzes workforce composition:
 
 ---
 
-### 🔹 3. Performance Tracker
+### 🔹 Performance Tracker
 
-Tracks employee engagement and performance:
+Monitors employee performance and engagement:
 
-* Job Satisfaction trends
+* Job Satisfaction
 * Work-Life Balance
-* Manager Ratings
+* Manager Rating
 * Training opportunities
 
 ---
 
-### 🔹 4. Attrition Analysis
+### 🔹 Attrition Analysis
 
-Identifies key drivers of employee turnover:
+Identifies factors influencing employee turnover:
 
 * Attrition by Department and Job Role
 * Attrition by Overtime
@@ -97,22 +94,22 @@ Identifies key drivers of employee turnover:
 
 ### 👥 Workforce Insights
 
-* The workforce is heavily concentrated in the **20–29 age group**, indicating a young employee base
-* Slightly higher representation of **female employees** compared to male
+* The workforce is primarily concentrated in the **20–29 age group**, indicating a young employee base
+* There is a slightly higher representation of **female employees**
 
 ---
 
 ### 📊 Performance Insights
 
-* Employees show **moderate satisfaction levels**, with noticeable variation across different metrics
-* Work-life balance fluctuates, suggesting potential workload or management challenges
+* Employee satisfaction levels vary across different metrics
+* Work-life balance shows fluctuations, indicating potential workload concerns
 
 ---
 
 ### ⚠️ Attrition Insights
 
-* **Overtime is a major driver of attrition**, with significantly higher exit rates among employees working overtime
-* Employees with **lower tenure (0–2 years)** show the highest attrition, indicating onboarding or early engagement issues
+* **Overtime is a major contributor to attrition**, with higher exit rates among employees working overtime
+* Employees with **low tenure (0–2 years)** are more likely to leave
 * Attrition varies across departments, highlighting role-specific challenges
 * Frequent business travel is associated with increased attrition
 
@@ -120,60 +117,58 @@ Identifies key drivers of employee turnover:
 
 ### 🌍 Diversity & Salary Insights
 
-* Salary distribution differs across **ethnic groups**, indicating potential disparities
+* Salary distribution varies across different **ethnic groups**
 * Certain groups have comparatively lower average salaries, which may impact retention
 
 ---
 
 ## 💡 Business Recommendations
 
-Based on the analysis, the following actions are recommended:
-
 ### 🔹 Improve Work-Life Balance
 
 * Reduce excessive overtime
-* Introduce flexible work policies
+* Introduce flexible work arrangements
 * Monitor workload distribution
 
 ---
 
-### 🔹 Strengthen Employee Retention (Early Stage)
+### 🔹 Enhance Employee Retention
 
-* Enhance onboarding programs
+* Strengthen onboarding programs
 * Provide mentorship for new employees
-* Conduct early feedback surveys
+* Conduct early-stage feedback surveys
 
 ---
 
 ### 🔹 Address Attrition Drivers
 
-* Identify high-risk departments and roles
+* Identify high-risk roles and departments
 * Implement targeted retention strategies
-* Improve job satisfaction through engagement initiatives
+* Improve engagement and job satisfaction
 
 ---
 
-### 🔹 Enhance Diversity & Pay Equity
+### 🔹 Promote Pay Equity & Diversity
 
-* Review salary structures across demographic groups
-* Ensure fair and equitable compensation
-* Promote inclusive workplace policies
+* Review compensation across demographic groups
+* Ensure fair and transparent salary structures
+* Encourage inclusive workplace policies
 
 ---
 
-### 🔹 Improve Performance Management
+### 🔹 Strengthen Performance Management
 
-* Regularly track employee satisfaction metrics
-* Align manager feedback with employee development
-* Increase access to training opportunities
+* Regularly monitor satisfaction metrics
+* Align manager feedback with employee growth
+* Increase access to training and development programs
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-* **Power BI** → Data visualization and dashboard creation
+* **Power BI** → Data visualization and dashboard development
 * **Power Query** → Data cleaning and transformation
-* **DAX (Data Analysis Expressions)** → Measures and calculations
+* **DAX (Data Analysis Expressions)** → Calculations and measures
 
 ---
 
@@ -181,26 +176,25 @@ Based on the analysis, the following actions are recommended:
 
 ### 🔹 Overview
 
-![Overview](Overview.png)
+![Overview](overview.png)
 
 ### 🔹 Demographics
 
-![Demographics](Demographics.png)
+![Demographics](demographics.png)
 
 ### 🔹 Performance Tracker
 
-![Performance](Performance Tracker.png)
+![Performance](performance_tracker.png)
 
 ### 🔹 Attrition Analysis
 
-![Attrition](Attrition.png)
+![Attrition](attrition.png)
 
 ---
 
 ## 📌 Conclusion
 
-This project demonstrates how data can be used to uncover meaningful HR insights and support strategic decision-making.
-The dashboard enables organizations to proactively address attrition, improve employee satisfaction, and optimize workforce planning.
+This dashboard demonstrates how HR data can be transformed into meaningful insights.
+It enables organizations to improve employee retention, optimize workforce planning, and enhance overall performance.
 
 ---
-
