@@ -25,7 +25,7 @@ The dashboard is designed to help stakeholders identify key issues and take proa
 
 ## 🧩 Data Model
 
-The data model is designed using a **star schema**, which improves performance and simplifies analysis.
+The data model is designed using a **star schema**, ensuring efficient performance and scalability.
 
 ### 🔹 Fact Table
 
@@ -40,53 +40,51 @@ The data model is designed using a **star schema**, which improves performance a
 * **Education Level** → employee education classification
 * **Date** → supports time-based analysis
 
-This structure enables efficient filtering, accurate relationships, and scalable reporting.
-
 ---
 
 ## 📊 Dashboard Structure
 
 ### 🔹 Overview
 
-Provides a high-level summary of key HR metrics:
-
 * Total Employees
 * Active Employees
 * Inactive Employees
 * Attrition Rate
 
+Provides a high-level summary of organizational metrics.
+
 ---
 
 ### 🔹 Demographics
-
-Analyzes workforce composition:
 
 * Age distribution
 * Gender distribution
 * Marital status
 * Salary by ethnicity
 
+Helps understand workforce composition.
+
 ---
 
 ### 🔹 Performance Tracker
-
-Monitors employee performance and engagement:
 
 * Job Satisfaction
 * Work-Life Balance
 * Manager Rating
 * Training opportunities
 
+Tracks employee performance and engagement.
+
 ---
 
 ### 🔹 Attrition Analysis
-
-Identifies factors influencing employee turnover:
 
 * Attrition by Department and Job Role
 * Attrition by Overtime
 * Attrition by Travel Frequency
 * Attrition by Tenure
+
+Identifies key drivers of employee turnover.
 
 ---
 
@@ -94,23 +92,23 @@ Identifies factors influencing employee turnover:
 
 ### 👥 Workforce Insights
 
-* The workforce is primarily concentrated in the **20–29 age group**, indicating a young employee base
-* There is a slightly higher representation of **female employees**
+* Majority of employees belong to the **20–29 age group**, indicating a young workforce
+* Slightly higher representation of **female employees**
 
 ---
 
 ### 📊 Performance Insights
 
-* Employee satisfaction levels vary across different metrics
-* Work-life balance shows fluctuations, indicating potential workload concerns
+* Employee satisfaction varies across different metrics
+* Work-life balance fluctuations suggest potential workload challenges
 
 ---
 
 ### ⚠️ Attrition Insights
 
-* **Overtime is a major contributor to attrition**, with higher exit rates among employees working overtime
-* Employees with **low tenure (0–2 years)** are more likely to leave
-* Attrition varies across departments, highlighting role-specific challenges
+* **Overtime significantly impacts attrition**, with higher exit rates among employees working overtime
+* Employees with **low tenure (0–2 years)** show higher attrition rates
+* Attrition varies across departments, indicating role-specific challenges
 * Frequent business travel is associated with increased attrition
 
 ---
@@ -118,7 +116,7 @@ Identifies factors influencing employee turnover:
 ### 🌍 Diversity & Salary Insights
 
 * Salary distribution varies across different **ethnic groups**
-* Certain groups have comparatively lower average salaries, which may impact retention
+* Certain groups have comparatively lower average salaries, which may affect retention
 
 ---
 
@@ -127,16 +125,16 @@ Identifies factors influencing employee turnover:
 ### 🔹 Improve Work-Life Balance
 
 * Reduce excessive overtime
-* Introduce flexible work arrangements
+* Introduce flexible work policies
 * Monitor workload distribution
 
 ---
 
-### 🔹 Enhance Employee Retention
+### 🔹 Strengthen Employee Retention
 
-* Strengthen onboarding programs
+* Improve onboarding and early engagement programs
 * Provide mentorship for new employees
-* Conduct early-stage feedback surveys
+* Conduct regular feedback surveys
 
 ---
 
@@ -144,31 +142,31 @@ Identifies factors influencing employee turnover:
 
 * Identify high-risk roles and departments
 * Implement targeted retention strategies
-* Improve engagement and job satisfaction
+* Improve employee engagement initiatives
 
 ---
 
-### 🔹 Promote Pay Equity & Diversity
+### 🔹 Promote Pay Equity & Inclusion
 
-* Review compensation across demographic groups
-* Ensure fair and transparent salary structures
+* Review salary structures across demographics
+* Ensure fair compensation practices
 * Encourage inclusive workplace policies
 
 ---
 
-### 🔹 Strengthen Performance Management
+### 🔹 Enhance Performance Management
 
-* Regularly monitor satisfaction metrics
-* Align manager feedback with employee growth
-* Increase access to training and development programs
+* Track satisfaction metrics regularly
+* Align manager feedback with employee development
+* Increase access to training programs
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-* **Power BI** → Data visualization and dashboard development
-* **Power Query** → Data cleaning and transformation
-* **DAX (Data Analysis Expressions)** → Calculations and measures
+* **Power BI** → Dashboard development & visualization
+* **Power Query** → Data cleaning & transformation
+* **DAX (Data Analysis Expressions)** → Measures and calculations
 
 ---
 
@@ -176,25 +174,25 @@ Identifies factors influencing employee turnover:
 
 ### 🔹 Overview
 
-![Overview](overview.png)
+![Overview](Overview.png)
 
 ### 🔹 Demographics
 
-![Demographics](demographics.png)
+![Demographics](Demographics.png)
 
 ### 🔹 Performance Tracker
 
-![Performance](performance_tracker.png)
+![Performance](Performance%20Tracker.png)
 
 ### 🔹 Attrition Analysis
 
-![Attrition](attrition.png)
+![Attrition](Attrition.png)
 
 ---
 
 ## 📌 Conclusion
 
 This dashboard demonstrates how HR data can be transformed into meaningful insights.
-It enables organizations to improve employee retention, optimize workforce planning, and enhance overall performance.
+It helps organizations improve employee retention, optimize workforce planning, and support data-driven decision-making.
 
 ---
